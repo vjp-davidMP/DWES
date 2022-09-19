@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estiloForm.css">
+  <title>FormularioPrueba</title>
+</head>
+<body>
+<div id="cuerpo">
+  <h1>FORMULARIO DE Prueba</h1>
+<form action="responderFormulario.php" method="get">
+  <p>
+    <label for="nombreApellido">Nombre y Apellidos: </label>
+    <input type="text" name="nomApeform" id="nombreApellido" required pattern="{A-Za-z}{3,}">
+  </p>
+  <p>
+    <label for="contraseña">Contraseña de Acceso: </label>
+    <input type="password" name="contraForm" id="contraseña" value="Password" required>
+  </p>
+  <p>
+    <label>Sexo: </label>
+      <label><input type="radio" name="sexoForm" value="Hombre"> Hombre</label>
+      <label><input type="radio" name="sexoForm" value="Mujer"> Mujer</label>
+
+  </p>
+  <p>
+    <label for="dirPostal">Dirección Postal: </label>
+    <textarea name="dirPostalForm" id="dirPostal" cols="20" rows="6" placeholder="Escribe aquí..."></textarea>
+  </p>
+  <p id="opc1">
+    <label for="lista">Ciudades: </label>
+
+    <select name="CiudadesForm" id="lista">
+
+      <option value="Cáceres">Cáceres</option>
+
+      <option value="Badajoz">Badajoz</option>
+
+      <option value="Mérida">Mérida</option>
+
+    </select>
+  </p>
+  <p id="opc2">
+    <label for="ciuForm">Ciudad: </label>
+    <input list="ciuExt" id="ciuForm" name="listaCiudades" />
+
+    <datalist id="ciuExt">
+      <option value="Cáceres">Cáceres</option>
+      <option value="Badajoz">Badajoz</option>
+      <option value="Mérida">Mérida</option>
+    </datalist>
+  </p>
+  <p class="fin">
+    <label><input type="checkbox" name="cuadroVal" id="validación" value="validacion" required/> Deseo recibir boletines</label>
+  </p>
+  <p class="fin">
+    <input type="submit" value="Realizar el registro">
+  </p>
+</form>
+</div>
+</body>
+</html>
