@@ -1,0 +1,13 @@
+console.log(4+6);
+console.log("Hello "+"world!");
+console.log("23"+12);
+console.log("42"+true);
+console.log("42"+undefined);
+console.log("42"+null);
+console.log(null+42);
+console.log(42+"hello");
+console.log(42+true);
+console.log(42+false);
+console.log(42+undefined);
+console.log(42+null);
+console.log(13+10+"12");
