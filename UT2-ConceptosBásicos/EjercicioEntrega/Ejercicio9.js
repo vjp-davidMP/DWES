@@ -2,9 +2,13 @@ function platosMostrar(mapaPlatos){
 
     for(let[platos,array]of mapaPlatos){
         console.log("El plato "+platos.nombre+" tiene una duracion de "+platos.duracion+" minutos con dificultad: "+platos.dificultad)
+        console.log("Ingredientes: ");
         for (let i=0;i<array.length;i++) {
+
             console.log("-" + array[i] );
+
         }
+        console.log();
     }
 
 }
