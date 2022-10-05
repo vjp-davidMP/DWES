@@ -1,7 +1,7 @@
 function platosMostrar(mapaPlatos){
 
     for(let[platos,array]of mapaPlatos){
-        console.log("El plato "+platos.nombre+" tiene una duracion de "+platos.duracion+" minutos con dificultad: "+platos.dificultad)
+        console.log(platos.toString());
         console.log("Ingredientes: ");
         for (let i=0;i<array.length;i++) {
 
@@ -18,6 +18,9 @@ class platos {
         this.nombre=nombre;
         this.duracion=duracion;
         this.dificultad=dificultad;
+    }
+    toString(){
+        return "El plato "+this.nombre+" tiene una duracion de "+this.duracion+" minutos con dificultad: "+this.dificultad;
     }
 }
 var mapaPlatos=new Map();

@@ -10,9 +10,8 @@ function comprobar(...arg){
 
         }
 
-        //console.log(arg.reduce((resultado,long) => +resultado + +long,0));
-
     }
+    console.log(arg.reduce((resultado,long) => resultado + long,""));
     console.log("El resultado total de la suma de las longitudes es: "+resultado);
 }
 let arg=["david","marina","2","truesdfadfa"];

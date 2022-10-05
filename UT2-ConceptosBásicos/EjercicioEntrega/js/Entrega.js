@@ -276,7 +276,3 @@ function agruparNumerosPares(...datos){
 let datos=[2,2,4,5,6,67,3];
 agruparNumerosPares(...datos);
 
-//Ejercicio12
-console.log("Ejercicio12");
-//Ejercicio13
-console.log("Ejercicio13");

@@ -1,0 +1,7 @@
+element.childNodes: La childNodespropiedad devuelve una colección (lista) de los nodos secundarios de un elemento.
+element.children: La childrenpropiedad devuelve una colección de los elementos secundarios de un elemento.
+element.parentNode: La parentNodepropiedad devuelve el nodo principal de un elemento o nodo.
+element.nextSibling: La nextSiblingpropiedad devuelve el siguiente nodo en el mismo nivel de árbol.
+element.previousSibling: La previousSiblingpropiedad devuelve el nodo anterior en el mismo nivel de árbol.
+element.nextElementSibling: La nextElementSiblingpropiedad devuelve el siguiente elemento en el mismo nivel de árbol.
+element.previousElementSibling: 
