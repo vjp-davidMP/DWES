@@ -4,4 +4,4 @@ element.parentNode: La parentNodepropiedad devuelve el nodo principal de un elem
 element.nextSibling: La nextSiblingpropiedad devuelve el siguiente nodo en el mismo nivel de árbol.
 element.previousSibling: La previousSiblingpropiedad devuelve el nodo anterior en el mismo nivel de árbol.
 element.nextElementSibling: La nextElementSiblingpropiedad devuelve el siguiente elemento en el mismo nivel de árbol.
-element.previousElementSibling: 
+element.previousElementSibling: La previousElementSiblingpropiedad devuelve el elemento anterior en el mismo nivel de árbol.
