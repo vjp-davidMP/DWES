@@ -1,3 +1,1 @@
-funcion(...restoArg){
 
-}

@@ -1,0 +1,1 @@
+let pers1={name:"David"};

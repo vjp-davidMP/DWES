@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700e1251-eb7c-4241-b869-6cf0101a7be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Pruebas/js/prueba1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Pruebas/prueba1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Ejercicio9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/todos los apartados/Ejercicio9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/Entrega.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/js/Entrega.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Ejercicios/Ejercicio4/Ejercicio4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Ejercicios/Ejercicio4/js/Ejercicio4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Ejercicios/Ejercicio5/Ejercicio5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Ejercicios/Ejercicio5/js/Ejercicio5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Pruebas/prueba8/js/prueba8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/Pruebas/prueba8/prueba8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/EjercicioEntrega/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/pruebasCodigos/prueba23/js/preuba23.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/pruebasCodigos/prueba23/js/preuba23.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UT2-ConceptosBásicos/pruebasCodigos/prueba24/prueba24.js" beforeDir="false" afterPath="$PROJECT_DIR$/../UT2-ConceptosBásicos/pruebasCodigos/prueba24/prueba24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT3-BOMyDOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../UT3-BOMyDOM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/2ºdaw/DWEC-Fréderic Sánchez/UT3-Prueba",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/2ºdaw/DWEC-Fréderic Sánchez/UT3-BOMyDOM/Pruebas/prueba7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2ºdaw\DWEC-Fréderic Sánchez\UT3-BOMyDOM\Pruebas\prueba7" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\2ºdaw\DWEC-Fréderic Sánchez\UT3-BOMyDOM\Pruebas\prueba6.1" />
+      <recent name="F:\2ºdaw\DWEC-Fréderic Sánchez\UT3-BOMyDOM\Pruebas\prueba1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +77,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664983823239</updated>
-      <workItem from="1664983824450" duration="542000" />
+      <workItem from="1664983824450" duration="5712000" />
+      <workItem from="1665063109003" duration="7000" />
+      <workItem from="1665155913057" duration="6600000" />
+      <workItem from="1665423153773" duration="4848000" />
+      <workItem from="1665506168107" duration="2492000" />
     </task>
     <servers />
   </component>
