@@ -1,7 +1,7 @@
 function validarFecha(){
    let boton= document.querySelector("#texto").value;
    console.log(boton);
-   let regFecha=/^\d{2}[\/]\d{2}[\/]\d{4}|\d{2}$/;
+   let regFecha=/^[0-9]{2}[\/][0-9]{2}[\/]\d{4}|^[0-9]{2}[\/][0-9]{2}[\/]\d{2}$/;
    console.log(regFecha.test(boton));
    if(regFecha.test(boton)===false){
       alert("El formato de la fecha no es valido.");
@@ -12,7 +12,7 @@ function validarFecha(){
 
 function validarDni() {
    let boton= document.querySelector("#texto").value;
-   let regDni=new RegExp("[0-9]{7,8}[A-Z]{1}$");
+   let regDni=new RegExp("[0-9]{7,8}[A-Z]$");
    console.log(regDni.test(boton.value));
    if(regDni.test(boton)===false){
       alert("El formato del DNI no es valido.");
@@ -23,7 +23,7 @@ function validarDni() {
 
 function validarIdentificador() {
    let boton= document.querySelector("#texto").value;
-   let regIden=new RegExp("^[a-z]|[_]{1}");
+   let regIden=new RegExp("^[a-z_][A-Za-z_0-9]");
    console.log(regIden.test(boton));
    if(regIden.test(boton)===false){
       alert("El formato del iden no es valido.");
