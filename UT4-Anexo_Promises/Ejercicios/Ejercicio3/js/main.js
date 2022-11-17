@@ -17,7 +17,7 @@ function cambiarColor() {
 function procesarRespuesta(respuesta) {
     if (respuesta.ok) {
         let jsonDevuelto = respuesta.json();
-        console.log(jsonDevuelto);
+        console.log(jsonDevuelto.results);
         return jsonDevuelto;
     }
 }
