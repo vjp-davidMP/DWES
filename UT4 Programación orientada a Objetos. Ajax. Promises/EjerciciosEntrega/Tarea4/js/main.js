@@ -1,19 +1,31 @@
 'use strict';
+let peticionAjax = new XMLHttpRequest();
+peticionAjax.addEventListener("readystatechange", procesarPeticion);
+let direccion = "https://jsonplaceholder.typicode.com/posts";
+peticionAjax.open("GET", direccion);
+peticionAjax.send();
 
+function procesarPeticion() {
+    if (this.readyState == 4 && this.status == 200) {
+        let objetoCaja = JSON.parse(this.responseText);
+        console.log(objetoCaja);
+        for (let objetoCajaElement of objetoCaja) {
 
-class Post {
-    constructor(objPost) {
+            pintarPost(objetoCajaElement);
+        }
+
     }
+}
 
-//toDo: Cambiar objeto por el this
-    toDiv(){
-        let contenedor = document.querySelector("#contenedorEntradas");
+function pintarPost(objetoCaja) {
+    console.log(objetoCaja);
+    let contenedor = document.querySelector("#contenedorEntradas");
 
-        let div = document.createElement("div");
-        div.classList.add("entrada");
-        div.innerHTML += `<p><strong>TITULO</strong>: ${this.title}</p>
+    let div = document.createElement("div");
+    div.classList.add("entrada");
+    div.innerHTML += `<p><strong>TITULO</strong>: ${objetoCaja.title}</p>
     <div>
-        <p><strong>Contenido</strong>: ${this.body}</p>
+        <p><strong>Contenido</strong>: ${objetoCaja.body}</p>
         <button class="mostrarUsuario">Usuario del Post</button>
         <button class="mostrarComentarios">Mostrar comentarios</button>
         <div class="usuario d-none">
@@ -23,28 +35,6 @@ class Post {
             <p><strong>Comentarios: </strong></p>
         </div>
    `;
-    }
-}
-
-
-let direccion = "https://jsonplaceholder.typicode.com/posts";
-
-
-function procesarPeticion() {
-
-        let objetoCaja = JSON.parse(this.responseText);
-        console.log(objetoCaja);
-        for (let objetoCajaElement of objetoCaja) {
-
-            pintarPost(objetoCajaElement);
-        }
-
-    
-}
-
-function pintarPost(objetoCaja) {
-    console.log(objetoCaja);
-
     contenedor.appendChild(div);
 
     div.querySelector(".mostrarUsuario").addEventListener("click", function () {
