@@ -14,7 +14,7 @@ var calleCiudad={
     nombre:"El egido",
     geo_long:-6.0499200,
     establecimientos:[
-        {
+       {
             nombre:"Peluqueria Rizos"
         },
         {
