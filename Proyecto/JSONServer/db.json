@@ -1,0 +1,25 @@
+{
+  "opiniones": [
+    {
+      "nickName": "pepito98",
+      "coche": "Alfa Romeo",
+      "motivoVisita": "Ruido extraño",
+      "duracionReparacion": "2 dias",
+      "fechaOpinion": "24-03-2012",
+      "descripcionOpi": "Muy buen servicio y todo correcto",
+      "recomendariaServicios": "Si los recomendaria porque ha sido un servicio 10",
+      "mecanicoAtendido": "David"
+    },
+    {
+      "nickName": "Jose Ignacio",
+      "coche": "Audi",
+      "modelo": "A2",
+      "motivoVisita": "Cambio de Ruedas",
+      "duracionReparacion": "2 horas",
+      "fechaOpinion": "01-12-2014",
+      "descripcionOpi": "Excelente Servicio",
+      "recomendariaServicios": "Siempre aciertan son los mejores",
+      "mecanicoAtendido": "Angel"
+    }
+  ]
+}

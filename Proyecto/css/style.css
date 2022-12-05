@@ -1,0 +1,50 @@
+body{
+    background-color: lightskyblue;
+}
+header{
+    background-color: darkblue;
+    padding: 15px;
+    border: 2px solid blue;
+    color: white;
+}
+i{
+    font-size: 50px;
+}
+
+h1{
+    font-family: Ebrima;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.boton{
+    justify-items: right;
+    color: darkblue;
+    background-color: white;
+    border: white;
+}
+
+.colocar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+}
+
+#cuerpo2{
+    background-color: lightskyblue;
+}
+
+#formulario{
+    padding-top: 2%;
+    color: darkblue;
+    background-color: lightskyblue;
+    width: 50%;
+    margin: auto;
+
+}
+
+input{
+    height: 25px;
+}

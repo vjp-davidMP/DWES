@@ -18,13 +18,14 @@
     "long": -5.94462122133479
   },
   {
-    "id": 5
-  },
-  {
     "name": "Cáceres",
     "lat": 39.47586067297123,
     "long": -6.37457881446697,
     "provincia": "Badajoz",
     "id": 6
+  },
+  {
+    "provincia": "Lugo",
+    "id": 10
   }
 ]

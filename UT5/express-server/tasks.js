@@ -12,7 +12,7 @@ var app = express();
 app.use(express.json());
 // Evitar CORS
 app.use(cors({
-    origin: 'http://localhost:4200'
+    origin: '*'
 }));
 
 // Definimos la url sobre la cual va a responder
