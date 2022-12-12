@@ -19,22 +19,18 @@
   <div class="colocar">
     <i class="fa-solid fa-car"></i>
     <h1 class="titulo">Talleres Jofel</h1>
-    <a href="index.html"><button id="boton">Ver Reseñas</button></a>
+    <a href="index.html"><button class="boton">Ver Reseñas</button></a>
   </div>
 </header>
 <div id="formulario">
   <form>
     <div class="mb-3">
-      <label for="nombre" class="form-label">Nombre</label>
+      <label for="nombre" class="form-label">DNI o Correo Electronico:</label>
       <input type="email" class="form-control" id="nombre" placeholder="Usuario">
     </div>
     <div class="mb-3">
-      <label for="marca" class="form-label">Marca Coche: </label>
+      <label for="marca" class="form-label">Modelo Coche: </label>
       <input type="email" class="form-control" id="marca" placeholder="Marca Vehiculo">
-    </div>
-    <div class="mb-3">
-      <label for="modelo" class="form-label">Modelo de Vehículo: </label>
-      <input type="email" class="form-control" id="modelo" placeholder="Marca Vehiculo">
     </div>
     <div class="mb-3">
       <label for="visita" class="form-label">Motivo Visita: </label>
@@ -50,7 +46,7 @@
     </div>
     <div class="mb-3">
       <label for="recomendacion" class="form-label">Mecánico que realizo la reparación:</label>
-      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+      <select class="form-select form-select-sm" id="mecanico" aria-label=".form-select-sm example">
         <option selected>Selecciona Mecánico:</option>
         <option value="David">David</option>
         <option value="Ángel">Ángel</option>
@@ -61,8 +57,10 @@
       <label for="descripcion" class="form-label">Opinión:</label>
       <textarea class="form-control" id="descripcion" rows="1"></textarea>
     </div>
-
+    <button class="btn btn-primary" id="reset" type="submit" value="Submit">Resetear</button>
+    <button class="btn btn-primary" id="anadir" type="reset" value="Reset">Añadir Reseña</button>
   </form>
 </div>
+<script src="js/anadirResena.js"></script>
 </body>
 </html>

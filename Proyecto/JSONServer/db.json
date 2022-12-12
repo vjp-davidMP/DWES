@@ -1,8 +1,8 @@
 {
   "opiniones": [
     {
-      "nickName": "pepito98",
-      "coche": "Alfa Romeo",
+      "id": "pepito98",
+      "modeloCoche": "Alfa Romeo",
       "motivoVisita": "Ruido extraño",
       "duracionReparacion": "2 dias",
       "fechaOpinion": "24-03-2012",
@@ -11,15 +11,24 @@
       "mecanicoAtendido": "David"
     },
     {
-      "nickName": "Jose Ignacio",
-      "coche": "Audi",
-      "modelo": "A2",
+      "id": "Jose Ignacio",
+      "modeloCoche": "Audi",
       "motivoVisita": "Cambio de Ruedas",
       "duracionReparacion": "2 horas",
       "fechaOpinion": "01-12-2014",
       "descripcionOpi": "Excelente Servicio",
       "recomendariaServicios": "Siempre aciertan son los mejores",
       "mecanicoAtendido": "Angel"
+    },
+    {
+      "id": "49366745M",
+      "modeloCoche": "Volkswagen Golf Mk3 TDI 1.9",
+      "motivoVisita": "Cambio Aceite",
+      "duracionReparacion": "1 Hora",
+      "descripcionOpi": "Perfectos en la profesion",
+      "recomendariaServicios": "Si",
+      "mecanicoAtendido": "David",
+      "fechaActual": 1670808686135
     }
   ]
 }
