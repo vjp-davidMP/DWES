@@ -7,8 +7,8 @@
       "duracionReparacion": "2 Horas",
       "descripcionOpi": "HOlafdsfasd",
       "recomendariaServicios": "Si",
-      "mecanicoAtendido": "David",
-      "fechaOpinion": "2022-08-31"
+      "mecanicoAtendido": "Ángel",
+      "fechaOpinion": "2022-12-14"
     },
     {
       "id": "Ivan Segura Garcia",
@@ -21,43 +21,14 @@
       "fechaOpinion": "2023-01-07"
     },
     {
-      "id": "Sergio Clemente Sanchez",
-      "modeloCoche": "Opel Vectra",
-      "motivoVisita": "Cambio de pastillas de freno",
-      "duracionReparacion": "40 min",
-      "descripcionOpi": "Sitio de confianza",
+      "id": "49366547G",
+      "modeloCoche": "Mondeo",
+      "motivoVisita": "Cambio de transmision delantera derecha",
+      "duracionReparacion": "3horas",
+      "descripcionOpi": "Son muy buenos en lo suypo",
       "recomendariaServicios": "Si",
-      "mecanicoAtendido": "David",
-      "fechaOpinion": "2023-01-14"
-    },
-    {
-      "id": "fB9Tiqy"
-    },
-    {
-      "id": "LIMSrrm"
-    },
-    {
-      "id": "1KFRZzf"
-    },
-    {
-      "modeloCoche": "Seat Ibiza",
-      "motivoVisita": "Cambio Aceite",
-      "duracionReparacion": "2 Horas",
-      "descripcionOpi": "HOlafdsfasd",
-      "recomendariaServicios": "No",
-      "mecanicoAtendido": "Juan",
-      "fechaOpinion": "2022-09-31",
-      "id": "3PcQKew"
-    },
-    {
-      "id": "David MOren",
-      "modeloCoche": "Seat Ibiza",
-      "motivoVisita": "Cambio Aceite",
-      "duracionReparacion": "2 Horas",
-      "descripcionOpi": "HOlafdsfasd",
-      "recomendariaServicios": "No",
       "mecanicoAtendido": "Jose",
-      "fechaOpinion": "2022-09-31"
+      "fechaOpinion": "2022-12-16"
     }
   ]
 }

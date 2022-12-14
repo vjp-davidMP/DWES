@@ -75,6 +75,7 @@ botonTodas.addEventListener("click",()=>{
 
     let div = document.createElement("div");
     div.setAttribute("class", "cajaPrincipal");
+    contenedor.innerHTML ="";
     contenedor.appendChild(div);
     fetch("http://localhost:3000/opiniones").then(response => response.json()).then(opinionesJSON => {
         console.log(opinionesJSON);
@@ -96,6 +97,8 @@ botonTodas.addEventListener("click",()=>{
 
 
 function filtrar() {
+
+    contenedor.innerHTML ="";
     let cajaFecha=document.querySelector("#cajaFiltro");
     let valor=Date.parse(cajaFecha.value);
     console.log(valor);
