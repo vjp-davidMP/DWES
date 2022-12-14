@@ -8,17 +8,27 @@
       "descripcionOpi": "HOlafdsfasd",
       "recomendariaServicios": "Si",
       "mecanicoAtendido": "David",
-      "fechaOpinion": "2022-12-01T20:04"
+      "fechaOpinion": "2022-08-31"
     },
     {
-      "id": "Alejandro López Cáecel",
-      "modeloCoche": "Renault Clio",
-      "motivoVisita": "Cambio de cubiertas",
-      "duracionReparacion": "50 min",
-      "descripcionOpi": "Muy buen servicio",
+      "id": "Ivan Segura Garcia",
+      "modeloCoche": "Volvo V40",
+      "motivoVisita": "Cambio de brazo derecho de direcciom",
+      "duracionReparacion": "7 horas",
+      "descripcionOpi": "Encantado",
       "recomendariaServicios": "Si",
       "mecanicoAtendido": "Ángel",
-      "fechaOpinion": "2024-06-16T02:18"
+      "fechaOpinion": "2023-01-07"
+    },
+    {
+      "id": "Sergio Clemente Sanchez",
+      "modeloCoche": "Opel Vectra",
+      "motivoVisita": "Cambio de pastillas de freno",
+      "duracionReparacion": "40 min",
+      "descripcionOpi": "Sitio de confianza",
+      "recomendariaServicios": "Si",
+      "mecanicoAtendido": "David",
+      "fechaOpinion": "2023-01-14"
     }
   ]
 }

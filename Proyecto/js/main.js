@@ -5,26 +5,6 @@ let contenedor = document.querySelector("#cajaDatos");
 
 
 
-function funcionAnadir() {
-
-
-    fetch("http://localhost:3000/opiniones").then(response => response.json()).then(opinionesJSON => {
-        console.log(opinionesJSON);
-        let arrayResena=[];
-        for (let opinionesJSONElement of opinionesJSON) {
-            arrayResena.push(new Resena(opinionesJSONElement));
-        }
-        return arrayResena;
-
-    }).then(arrayResena=>{
-        for (let arrayResenaElement of arrayResena) {
-            arrayResenaElement.toDiv();
-        }
-    })
-    .catch(error => console.log(error.message));
-
-}
-boton.addEventListener("click", funcionAnadir);
 class Resena {
     constructor(reseina) {
         this.id = reseina.id;
@@ -38,11 +18,18 @@ class Resena {
 
     }
 
-    toDiv() {
+    toDivVacio(){
         let div = document.createElement("div");
         div.setAttribute("class", "cajaPrincipal");
         contenedor.appendChild(div);
 
+        div.innerHTML +="";
+    }
+
+    toDiv() {
+        let div = document.createElement("div");
+        div.setAttribute("class", "cajaPrincipal");
+        contenedor.appendChild(div);
 
         div.innerHTML += `<div id="todo">
                 <p>Fecha de la Reseña: ${this.fechaOpinion}</p>
@@ -62,7 +49,7 @@ class Resena {
         <button class="editar">Editar</button>
         </div>`
 
-        let botonBorrar=div.querySelector(".borrar");
+        let botonBorrar = div.querySelector(".borrar");
 
         botonBorrar.addEventListener("click",()=>{
             console.log(this.id);
@@ -80,3 +67,67 @@ class Resena {
         });
     }
 }
+function funcionAnadir() {
+
+    fetch("http://localhost:3000/opiniones").then(response => response.json()).then(opinionesJSON => {
+        console.log(opinionesJSON);
+        let arrayResena=[];
+        for (let opinionesJSONElement of opinionesJSON) {
+            arrayResena.push(new Resena(opinionesJSONElement));
+        }
+        return arrayResena;
+
+    }).then(arrayResena=>{
+
+        for (let arrayResenaElement of arrayResena) {
+            arrayResenaElement.toDiv();
+        }
+    })
+        .catch(error => console.log(error.message));
+
+}
+
+let botonFiltrar=document.querySelector("#botonFiltrar");
+let botonTodas=document.querySelector("#todas");
+
+botonTodas.addEventListener("click",funcionAnadir);
+
+
+function filtrar() {
+    let cajaFecha=document.querySelector("#cajaFiltro");
+    let valor=Date.parse(cajaFecha.value);
+    console.log(valor);
+    fetch("http://localhost:3000/opiniones").then(response => response.json()).then(opinionesJSON => {
+        console.log(opinionesJSON);
+        let arrayResena=[];
+        for (let opinionesJSONElement of opinionesJSON) {
+            arrayResena.push(new Resena(opinionesJSONElement));
+        }
+        return arrayResena;
+
+    }).then(arrayResena=>{
+    let fechaResena="";
+    let cont=0;
+        let caja=contenedor.querySelector("#cajaDatos");
+        for (let arrayResenaElement of arrayResena) {
+            fechaResena=Date.parse(arrayResenaElement.fechaOpinion);
+            console.log((valor-fechaResena)+"  "+cont);
+            if (valor>fechaResena){
+                console.log("es mayor");
+                arrayResenaElement.toDiv();
+                cont++;
+            }
+            else {
+               if(cont>0){
+                   caja.innerHTML="";
+                   alert("No hay ninguna reseña con una fecha menor a la introducida.")
+
+               }
+                }
+        }
+    })
+        .catch(error => console.log(error.message));
+
+
+}
+botonFiltrar.addEventListener("click",filtrar);

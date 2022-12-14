@@ -19,11 +19,9 @@ botonResena.addEventListener("click", () => {
         'recomendariaServicios': cajaRecomendacion.value,
         'mecanicoAtendido': cajaMecanico.value,
         'fechaOpinion': cajaFecha.value
-
-
     };
 
-    let options = {
+    const options = {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -35,7 +33,7 @@ botonResena.addEventListener("click", () => {
             return data.json();
         }).then(resena => {
         console.log(resena);
-
+            window.location.href="index.html";
     });
 });
 
