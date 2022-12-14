@@ -67,8 +67,15 @@ class Resena {
         });
     }
 }
-function funcionAnadir() {
 
+let botonFiltrar=document.querySelector("#botonFiltrar");
+let botonTodas=document.querySelector("#todas");
+
+botonTodas.addEventListener("click",()=>{
+
+    let div = document.createElement("div");
+    div.setAttribute("class", "cajaPrincipal");
+    contenedor.appendChild(div);
     fetch("http://localhost:3000/opiniones").then(response => response.json()).then(opinionesJSON => {
         console.log(opinionesJSON);
         let arrayResena=[];
@@ -78,19 +85,14 @@ function funcionAnadir() {
         return arrayResena;
 
     }).then(arrayResena=>{
-
+        console.log(div);
+        div.innerHTML="";
         for (let arrayResenaElement of arrayResena) {
             arrayResenaElement.toDiv();
         }
     })
         .catch(error => console.log(error.message));
-
-}
-
-let botonFiltrar=document.querySelector("#botonFiltrar");
-let botonTodas=document.querySelector("#todas");
-
-botonTodas.addEventListener("click",funcionAnadir);
+});
 
 
 function filtrar() {
